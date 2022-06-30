@@ -1,0 +1,33 @@
+{
+	"folders": {},
+	"connections": {
+		"mysql8-18189cb4521-2882a0f0a8c2ec13": {
+			"provider": "mysql",
+			"driver": "mysql8",
+			"name": "employee_management_system",
+			"save-password": true,
+			"read-only": false,
+			"configuration": {
+				"host": "localhost",
+				"port": "3306",
+				"database": "employee_management_system",
+				"url": "jdbc:mysql://localhost:3306/employee_management_system",
+				"home": "/usr/local/mysql-8.0.29-macos12-arm64",
+				"type": "dev",
+				"auth-model": "native",
+				"handlers": {}
+			}
+		}
+	},
+	"connection-types": {
+		"dev": {
+			"name": "Development",
+			"color": "255,255,255",
+			"description": "Regular development database",
+			"auto-commit": true,
+			"confirm-execute": false,
+			"confirm-data-change": false,
+			"auto-close-transactions": false
+		}
+	}
+}
